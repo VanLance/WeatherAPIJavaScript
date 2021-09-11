@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arvo', serif;
+    background: #222; 
+    background-image: url(../css/img/topOfTheWorld.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+   
+
+.wrapper{
+    background: rgb(50, 143, 230);
+    
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    padding: .5em;
+    background: rgb(224, 247, 99);
+    color:blueviolet;
+    font-family: inherit;
+    width: 80%;
+}
+
+button {
+    border-radius: 50%;
+    outline: none;
+    background: rgb(224, 247, 99);
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 1em;
+}
+
